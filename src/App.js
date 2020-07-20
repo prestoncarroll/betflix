@@ -9,9 +9,12 @@ function App() {
 
       <h1> hey time to build betflix!</h1>
 
-    <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals}/>
-    <Row title="Trending now" fetchUrl={requests.fetchTrending}/>
+      <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals} />
+      <Row title="Trending now" fetchUrl={requests.fetchTrending} />
+
     </div>
+
+
   );
 }
 
